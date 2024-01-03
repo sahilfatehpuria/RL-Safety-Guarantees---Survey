@@ -1,0 +1,4 @@
+This is a paper surveying and analyzing modern literature around techniques for safety guarantees in reinforcement leanring. In particular it goes in depth about Control Barrier Functions, as the candidate that proved to be most promising.
+The abstract is below:
+
+Reinforcement learning systems have wide potential applications to high risk systems that run in the real world. However, when working with theses systems that, if the expected performance is not achieved, may lead to serious safety concerns for the people around the system. Thus, for such systems, there is a need for some guarantees of performance, or at least assurance that some worst case scenarios can be avoided. One way this can be done is through the use of CBFs (Control Barrier Functions). We survey the existing research on this topic and try and provide a formal analysis of the expected learning guarantees when using this method. We focus mainly to the application to model based learning
